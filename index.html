@@ -3,7 +3,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Got a New Partner?</title>
-<meta name="rev" content="1793138731321">
+<meta name="rev" content="1793139211839">
 <meta name="repo" content="dwightrfm/rise-new-partner">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
@@ -232,6 +232,18 @@ body.editing #rot{display:none}
 .s-today .card .qr{width:150px;padding:10px;margin-top:34px;border-radius:18px}
 .s-today .card.app{box-shadow:0 0 0 1.5px color-mix(in srgb,var(--acc) 70%,transparent),0 0 70px -14px var(--acc),inset 0 1px 0 rgba(255,255,255,.38)}
 
+.s-today.three .cards{grid-template-columns:repeat(3,1fr);left:220px;right:220px}
+
+/* plug them in (right after the AMA) */
+.s-plug .cards{position:absolute;left:130px;right:130px;top:410px;bottom:120px;display:grid;grid-template-columns:repeat(3,1fr);gap:34px}
+.s-plug .card{padding:44px 44px;display:flex;flex-direction:column}
+.s-plug .card .n{font-family:var(--mono);font-size:20px;letter-spacing:.3em;color:var(--acc)}
+.s-plug .card svg.ic{width:120px;height:120px;margin-top:40px}
+.s-plug .card .qr{width:150px;padding:10px;margin-top:34px;border-radius:18px}
+.s-plug .card .big{font-size:48px;font-weight:700;letter-spacing:-.03em;line-height:1.04;margin-top:auto}
+.s-plug .card .sm{font-size:28px;color:var(--mut);margin-top:16px;line-height:1.32}
+.s-plug .card .sm b{color:#fff;font-weight:600}
+
 /* 5 step 3 */
 .s-fast .left{position:absolute;left:130px;top:120px;width:840px}
 .s-fast .left .body{margin-top:34px;font-size:34px}
@@ -429,8 +441,8 @@ body.editing #rot{display:none}
 <div class="node peak" style="left:1720px;top:230px"><div class="pt a" data-e="27" style="--k:bloom;--d:3.3s">5</div><div class="glass card a" style="--d:3.4s;left:-420px;top:-150px;width:380px"><div class="k" data-e="28">30 DAYS</div><div class="t" data-e="29">GX1: 3 new partners, 15K points</div></div></div>
 </section>
 <!-- 4 TONIGHT -->
-<section class="slide s-today" data-calm=".45" data-chapter="Today">
-<div class="head"><div class="eyebrow a" data-e="30" style="--d:.1s">03 · Before you leave</div><h1 class="h1 split" data-e="31" style="--d:.2s">Tonight, <em>do these four.</em></h1></div>
+<section class="slide s-today three" data-calm=".45" data-chapter="Today">
+<div class="head"><div class="eyebrow a" data-e="30" style="--d:.1s">03 · Before you leave</div><h1 class="h1 split" data-e="31" style="--d:.2s">Tonight, <em>do these three.</em></h1></div>
 <div class="cards">
 <div class="glass card a depth" style="--k:depth;--t:1.5s;--d:.6s;--z:6">
 <div class="n" data-e="32">01</div>
@@ -450,153 +462,171 @@ body.editing #rot{display:none}
 <div class="big" data-e="39">Book Step 3</div>
 <div class="sm" data-e="40">With their spouse. <b>Within 24 hours.</b></div>
 </div>
-<div class="glass card app a depth" style="--k:depth;--t:1.5s;--d:1.05s;--z:15">
-<div class="n" data-e="41">04</div>
-<div class="qr"><img alt="RISE App QR" data-img="1" src="assets/qr_res.png"/><div class="scan"></div></div>
-<div class="big" data-e="42">Get them in the RISE App</div>
-<div class="sm" data-e="43">teamrise.lovable.app<br/>Code: <b>first name + last name</b></div>
+</div>
+</section>
+<!-- 5 PLUG THEM IN -->
+<section class="slide s-plug" data-calm=".45" data-chapter="Today">
+<div class="head"><div class="eyebrow a" data-e="41" style="--d:.1s">04 · Right after the AMA</div><h1 class="h1 split" data-e="42" style="--d:.2s">Plug them in, <em>right away.</em></h1></div>
+<div class="cards">
+<div class="glass card a depth" style="--k:depth;--t:1.5s;--d:.6s;--z:6">
+<div class="n" data-e="43">01</div>
+<div class="qr"><img alt="RISE Resources Hub QR" data-img="1" src="assets/qr_res.png"/><div class="scan"></div></div>
+<div class="big" data-e="44">Send the RISE Resources Hub</div>
+<div class="sm" data-e="45">Text them the link to download it. They log in with their <b>first and last name.</b></div>
+</div>
+<div class="glass card a depth" style="--k:depth;--t:1.5s;--d:.75s;--z:9">
+<div class="n" data-e="46">02</div>
+<svg class="ic" viewbox="0 0 100 100"><path class="draw" d="M88 16 L10 46 L36 56 L44 82 L58 64 L78 80 Z" pathlength="1" style="--d:1.15s"></path><path class="draw" d="M36 56 L88 16" pathlength="1" style="--d:1.5s"></path></svg>
+<div class="big" data-e="47">New Associate Start Here</div>
+<div class="sm" data-e="48">Have them tap it and download <b>Telegram</b>. Add them to the <b>Announcements</b> chat and your <b>SMD baseshop</b> chat.</div>
+</div>
+<div class="glass card a depth" style="--k:depth;--t:1.5s;--d:.9s;--z:12">
+<div class="n" data-e="49">03</div>
+<svg class="ic" viewbox="0 0 100 100"><circle class="draw" cx="50" cy="36" pathlength="1" r="16" style="--d:1.3s"></circle><path class="draw" d="M18 86c4-18 17-28 32-28s28 10 32 28" pathlength="1" style="--d:1.6s"></path></svg>
+<div class="big" data-e="50">Create their BSC Pro profile</div>
+<div class="sm" data-e="51">Go to <b>bscpro.com</b> and make your new teammate's free profile. Passcode: <b>ask your trainer.</b></div>
 </div>
 </div>
 </section>
 <!-- 5 STEP 3 -->
 <section class="slide s-fast" data-calm=".45" data-chapter="48 hours">
 <div class="left">
-<div class="eyebrow a" data-e="44" style="--d:.1s">04 · Within 48 hours</div>
-<h1 class="h1 split" data-e="45" style="--d:.2s;margin-top:20px;font-size:108px">Step 3:<br/><em>the Fast Start.</em></h1>
-<p class="body a" data-e="46" style="--d:1.1s">Their home, on camera, or at the office. <b style="color:#fff;font-weight:600">Spouse in the room.</b></p>
-<div class="chips a" style="--d:1.3s"><span class="chip acc" data-e="47">Use the Step 3 presentation</span></div>
+<div class="eyebrow a" data-e="52" style="--d:.1s">05 · Within 48 hours</div>
+<h1 class="h1 split" data-e="53" style="--d:.2s;margin-top:20px;font-size:108px">Step 3:<br/><em>the Fast Start.</em></h1>
+<p class="body a" data-e="54" style="--d:1.1s">Their home, on camera, or at the office. <b style="color:#fff;font-weight:600">Spouse in the room.</b></p>
+<div class="chips a" style="--d:1.3s"><span class="chip acc" data-e="55">Use the Step 3 presentation</span></div>
 <div class="glass goal a" style="--k:left;--d:1.6s">
-<div class="mono" data-e="48">The goal</div>
-<div class="gt" data-e="49">1 new partner and their own FNA, done inside 7 days.</div>
+<div class="mono" data-e="56">The goal</div>
+<div class="gt" data-e="57">1 new partner and their own FNA, done inside 7 days.</div>
 </div>
 </div>
 <div class="rows">
-<div class="glass row3 a" style="--k:right;--d:.6s"><div class="gn gradnum" data-e="50">1</div><div><div class="gt" data-e="51">Find their why</div><div class="gs" data-e="52">What do they want? Why now?</div></div></div>
-<div class="glass row3 a" style="--k:right;--d:.8s"><div class="gn gradnum" data-e="53">2</div><div><div class="gt" data-e="54">Build their Top 5</div><div class="gs" data-e="55">The five people closest to them.</div></div></div>
-<div class="glass row3 a" style="--k:right;--d:1s"><div class="gn gradnum" data-e="56">3</div><div><div class="gt" data-e="57">Book 3 to 5 Step 1s</div><div class="gs" data-e="58">Inside 24 to 48 hours. You run them together.</div></div></div>
+<div class="glass row3 a" style="--k:right;--d:.6s"><div class="gn gradnum" data-e="58">1</div><div><div class="gt" data-e="59">Find their why</div><div class="gs" data-e="60">What do they want? Why now?</div></div></div>
+<div class="glass row3 a" style="--k:right;--d:.8s"><div class="gn gradnum" data-e="61">2</div><div><div class="gt" data-e="62">Build their Top 5</div><div class="gs" data-e="63">The five people closest to them.</div></div></div>
+<div class="glass row3 a" style="--k:right;--d:1s"><div class="gn gradnum" data-e="64">3</div><div><div class="gt" data-e="65">Book 3 to 5 Step 1s</div><div class="gs" data-e="66">Inside 24 to 48 hours. You run them together.</div></div></div>
 </div>
 </section>
 <!-- 6 TOP 5 -->
 <section class="slide s-top5" data-calm=".5" data-chapter="48 hours">
 <div class="head">
-<div class="eyebrow a" data-e="59" style="--d:.1s">05 · Their first list</div>
-<h1 class="h1 split" data-e="60" style="--d:.2s">Start with <em>the Top 5.</em></h1>
-<p class="lede a" data-e="61" style="--d:1s">Who fits? Check the 8 pointers.</p>
+<div class="eyebrow a" data-e="67" style="--d:.1s">06 · Their first list</div>
+<h1 class="h1 split" data-e="68" style="--d:.2s">Start with <em>the Top 5.</em></h1>
+<p class="lede a" data-e="69" style="--d:1s">Who fits? Check the 8 pointers.</p>
 </div>
 <div class="grid8">
-<div class="glass pt8 a" style="--k:pop;--e:var(--spring);--d:1.1s"><div class="gn gradnum" data-e="62">1</div><div class="lb" data-e="63">25 or older</div></div>
-<div class="glass pt8 a" style="--k:pop;--e:var(--spring);--d:1.2s"><div class="gn gradnum" data-e="64">2</div><div class="lb" data-e="65">Married</div></div>
-<div class="glass pt8 a" style="--k:pop;--e:var(--spring);--d:1.3s"><div class="gn gradnum" data-e="66">3</div><div class="lb" data-e="67">Kids at home</div></div>
-<div class="glass pt8 a" style="--k:pop;--e:var(--spring);--d:1.4s"><div class="gn gradnum" data-e="68">4</div><div class="lb" data-e="69">Owns a home</div></div>
-<div class="glass pt8 a" style="--k:pop;--e:var(--spring);--d:1.5s"><div class="gn gradnum" data-e="70">5</div><div class="lb" data-e="71">Pattern of success</div></div>
-<div class="glass pt8 a" style="--k:pop;--e:var(--spring);--d:1.6s"><div class="gn gradnum" data-e="72">6</div><div class="lb" data-e="73">$75K+ income</div></div>
-<div class="glass pt8 a" style="--k:pop;--e:var(--spring);--d:1.7s"><div class="gn gradnum" data-e="74">7</div><div class="lb" data-e="75">Unhappy where they are</div></div>
-<div class="glass pt8 a" style="--k:pop;--e:var(--spring);--d:1.8s"><div class="gn gradnum" data-e="76">8</div><div class="lb" data-e="77">Thinks like an owner</div></div>
+<div class="glass pt8 a" style="--k:pop;--e:var(--spring);--d:1.1s"><div class="gn gradnum" data-e="70">1</div><div class="lb" data-e="71">25 or older</div></div>
+<div class="glass pt8 a" style="--k:pop;--e:var(--spring);--d:1.2s"><div class="gn gradnum" data-e="72">2</div><div class="lb" data-e="73">Married</div></div>
+<div class="glass pt8 a" style="--k:pop;--e:var(--spring);--d:1.3s"><div class="gn gradnum" data-e="74">3</div><div class="lb" data-e="75">Kids at home</div></div>
+<div class="glass pt8 a" style="--k:pop;--e:var(--spring);--d:1.4s"><div class="gn gradnum" data-e="76">4</div><div class="lb" data-e="77">Owns a home</div></div>
+<div class="glass pt8 a" style="--k:pop;--e:var(--spring);--d:1.5s"><div class="gn gradnum" data-e="78">5</div><div class="lb" data-e="79">Pattern of success</div></div>
+<div class="glass pt8 a" style="--k:pop;--e:var(--spring);--d:1.6s"><div class="gn gradnum" data-e="80">6</div><div class="lb" data-e="81">$75K+ income</div></div>
+<div class="glass pt8 a" style="--k:pop;--e:var(--spring);--d:1.7s"><div class="gn gradnum" data-e="82">7</div><div class="lb" data-e="83">Unhappy where they are</div></div>
+<div class="glass pt8 a" style="--k:pop;--e:var(--spring);--d:1.8s"><div class="gn gradnum" data-e="84">8</div><div class="lb" data-e="85">Thinks like an owner</div></div>
 </div>
-<div class="foot a" style="--d:2.2s"><span class="dot"></span><p class="body" data-e="78">Start with <b>5</b>. Grow it to <b>100</b>. Add names. <b>Never cross them off.</b></p></div>
+<div class="foot a" style="--d:2.2s"><span class="dot"></span><p class="body" data-e="86">Start with <b>5</b>. Grow it to <b>100</b>. Add names. <b>Never cross them off.</b></p></div>
 </section>
 <!-- 7 ONE ONE SEVEN -->
 <section class="slide s-117" data-calm=".3" data-chapter="7 days" data-sun=".55">
 <div class="center">
-<div class="eyebrow c a" data-e="79" style="--d:.1s;--k:track;--t:1.6s">06 · The goal for week one</div>
+<div class="eyebrow c a" data-e="87" style="--d:.1s;--k:track;--t:1.6s">07 · The goal for week one</div>
 <div class="digits">
-<div class="dg a" style="--k:bloom;--t:1.6s;--d:.5s"><div class="d gradnum" data-e="80">1</div><div class="l" data-e="81">new partner</div><div class="s" data-e="82">their first one</div></div>
+<div class="dg a" style="--k:bloom;--t:1.6s;--d:.5s"><div class="d gradnum" data-e="88">1</div><div class="l" data-e="89">new partner</div><div class="s" data-e="90">their first one</div></div>
 <div class="sep a" style="--k:pop;--d:1s"></div>
-<div class="dg a" style="--k:bloom;--t:1.6s;--d:.9s"><div class="d gradnum" data-e="83">1</div><div class="l" data-e="84">FNA</div><div class="s" data-e="85">their own family first</div></div>
+<div class="dg a" style="--k:bloom;--t:1.6s;--d:.9s"><div class="d gradnum" data-e="91">1</div><div class="l" data-e="92">FNA</div><div class="s" data-e="93">their own family first</div></div>
 <div class="sep a" style="--k:pop;--d:1.4s"></div>
-<div class="dg a" style="--k:bloom;--t:1.6s;--d:1.3s"><div class="d gradnum" data-e="86">7</div><div class="l" data-e="87">days</div><div class="s" data-e="88">from the day they start</div></div>
+<div class="dg a" style="--k:bloom;--t:1.6s;--d:1.3s"><div class="d gradnum" data-e="94">7</div><div class="l" data-e="95">days</div><div class="s" data-e="96">from the day they start</div></div>
 </div>
-<div class="rule a" data-e="89" style="--d:2s"><b>The golden rule</b>A new partner isn't started until they have a partner.</div>
-<div class="meta a" style="--d:2.5s"><span class="chip acc" data-e="90"><span class="dot pulse"></span>Hit 1-1-7 and they qualify for Fast Start School</span></div>
+<div class="rule a" data-e="97" style="--d:2s"><b>The golden rule</b>A new partner isn't started until they have a partner.</div>
+<div class="meta a" style="--d:2.5s"><span class="chip acc" data-e="98"><span class="dot pulse"></span>Hit 1-1-7 and they qualify for Fast Start School</span></div>
 </div>
 </section>
 <!-- 8 CHECKLIST -->
 <section class="slide s-check" data-calm=".45" data-chapter="7 days">
-<div class="head"><div class="eyebrow a" data-e="91" style="--d:.1s">07 · Done inside 7 days</div><h1 class="h1 split" data-e="92" style="--d:.2s;font-size:108px">The Fast Start <em>program.</em></h1></div>
+<div class="head"><div class="eyebrow a" data-e="99" style="--d:.1s">08 · Done inside 7 days</div><h1 class="h1 split" data-e="100" style="--d:.2s;font-size:108px">The Fast Start <em>program.</em></h1></div>
 <div class="list">
-<div class="glass it a" style="--k:left;--d:.6s"><svg viewbox="0 0 52 52"><circle cx="26" cy="26" r="24"></circle><path class="draw" d="M15 27l7 7 15-16" pathlength="1" style="--d:1.2s"></path></svg><div class="t" data-e="93">Step 3</div><div class="k" data-e="94">within 48 hours</div></div>
-<div class="glass it a" style="--k:left;--d:.72s"><svg viewbox="0 0 52 52"><circle cx="26" cy="26" r="24"></circle><path class="draw" d="M15 27l7 7 15-16" pathlength="1" style="--d:1.5s"></path></svg><div class="t" data-e="95">Submit licensing</div><div class="k" data-e="96">day one</div></div>
-<div class="glass it a" style="--k:left;--d:.84s"><svg viewbox="0 0 52 52"><circle cx="26" cy="26" r="24"></circle><path class="draw" d="M15 27l7 7 15-16" pathlength="1" style="--d:1.8s"></path></svg><div class="t" data-e="97">Their own FNA</div><div class="k" data-e="98">family first</div></div>
-<div class="glass it a" style="--k:left;--d:.96s"><svg viewbox="0 0 52 52"><circle cx="26" cy="26" r="24"></circle><path class="draw" d="M15 27l7 7 15-16" pathlength="1" style="--d:2.1s"></path></svg><div class="t" data-e="99">Top 5 list</div><div class="k" data-e="100">8 pointers</div></div>
-<div class="glass it a" style="--k:left;--d:1.08s"><svg viewbox="0 0 52 52"><circle cx="26" cy="26" r="24"></circle><path class="draw" d="M15 27l7 7 15-16" pathlength="1" style="--d:2.4s"></path></svg><div class="t" data-e="101">Fast Start School</div><div class="k" data-e="102">next class</div></div>
+<div class="glass it a" style="--k:left;--d:.6s"><svg viewbox="0 0 52 52"><circle cx="26" cy="26" r="24"></circle><path class="draw" d="M15 27l7 7 15-16" pathlength="1" style="--d:1.2s"></path></svg><div class="t" data-e="101">Step 3</div><div class="k" data-e="102">within 48 hours</div></div>
+<div class="glass it a" style="--k:left;--d:.72s"><svg viewbox="0 0 52 52"><circle cx="26" cy="26" r="24"></circle><path class="draw" d="M15 27l7 7 15-16" pathlength="1" style="--d:1.5s"></path></svg><div class="t" data-e="103">Submit licensing</div><div class="k" data-e="104">day one</div></div>
+<div class="glass it a" style="--k:left;--d:.84s"><svg viewbox="0 0 52 52"><circle cx="26" cy="26" r="24"></circle><path class="draw" d="M15 27l7 7 15-16" pathlength="1" style="--d:1.8s"></path></svg><div class="t" data-e="105">Their own FNA</div><div class="k" data-e="106">family first</div></div>
+<div class="glass it a" style="--k:left;--d:.96s"><svg viewbox="0 0 52 52"><circle cx="26" cy="26" r="24"></circle><path class="draw" d="M15 27l7 7 15-16" pathlength="1" style="--d:2.1s"></path></svg><div class="t" data-e="107">Top 5 list</div><div class="k" data-e="108">8 pointers</div></div>
+<div class="glass it a" style="--k:left;--d:1.08s"><svg viewbox="0 0 52 52"><circle cx="26" cy="26" r="24"></circle><path class="draw" d="M15 27l7 7 15-16" pathlength="1" style="--d:2.4s"></path></svg><div class="t" data-e="109">Fast Start School</div><div class="k" data-e="110">next class</div></div>
 </div>
 <div class="kit a depth" style="--k:right;--t:1.8s;--d:.6s;--z:-14"><div class="float"><img alt="Fast Start Kit" class="cover" data-img="2" src="assets/fastkit.webp"/></div></div>
-<div class="glass qrc a" style="--k:pop;--e:var(--spring);--d:1.4s"><div class="qr"><img alt="Fast Start Kit QR" data-img="3" src="assets/qr_fast.png"/><div class="scan"></div></div><div><div class="mono" data-e="103" style="font-size:14px;color:var(--acc)">Scan</div><div data-e="104" style="font-size:28px;font-weight:650;margin-top:6px;line-height:1.1">Get the<br/>Fast Start Kit</div></div></div>
-<p class="note a" data-e="105" style="--d:2.8s;--k:fade">It's a filter. <em>It shows you who is serious.</em></p>
+<div class="glass qrc a" style="--k:pop;--e:var(--spring);--d:1.4s"><div class="qr"><img alt="Fast Start Kit QR" data-img="3" src="assets/qr_fast.png"/><div class="scan"></div></div><div><div class="mono" data-e="111" style="font-size:14px;color:var(--acc)">Scan</div><div data-e="112" style="font-size:28px;font-weight:650;margin-top:6px;line-height:1.1">Get the<br/>Fast Start Kit</div></div></div>
+<p class="note a" data-e="113" style="--d:2.8s;--k:fade">It's a filter. <em>It shows you who is serious.</em></p>
 </section>
 <!-- 9 FIELD -->
 <section class="slide s-field" data-calm=".45" data-chapter="Field training">
 <div class="left">
-<div class="eyebrow a" data-e="106" style="--d:.1s">08 · Get them in the field</div>
-<h1 class="h1 split" data-e="107" style="--d:.2s;margin-top:20px">Built in <em>the field.</em></h1>
-<p class="q a" data-e="108" style="--d:1s">Activity creates knowledge. Not the other way around.</p>
+<div class="eyebrow a" data-e="114" style="--d:.1s">09 · Get them in the field</div>
+<h1 class="h1 split" data-e="115" style="--d:.2s;margin-top:20px">Built in <em>the field.</em></h1>
+<p class="q a" data-e="116" style="--d:1s">Activity creates knowledge. Not the other way around.</p>
 <div class="rules">
-<div class="r a" style="--k:left;--d:1.3s"><span class="dot"></span><div data-e="109"><b>Introduce the trainer</b> with D.E.T.E.</div></div>
-<div class="r a" style="--k:left;--d:1.45s"><span class="dot"></span><div data-e="110"><b>Camera on.</b> Quiet spot. Take notes.</div></div>
-<div class="r a" style="--k:left;--d:1.6s"><span class="dot"></span><div data-e="111"><b>Questions before or after.</b> Never during.</div></div>
-<div class="r a" style="--k:left;--d:1.75s"><span class="dot"></span><div data-e="112"><b>3 Step 1s with a trainer,</b> minimum. Usually about 10.</div></div>
+<div class="r a" style="--k:left;--d:1.3s"><span class="dot"></span><div data-e="117"><b>Introduce the trainer</b> with D.E.T.E.</div></div>
+<div class="r a" style="--k:left;--d:1.45s"><span class="dot"></span><div data-e="118"><b>Camera on.</b> Quiet spot. Take notes.</div></div>
+<div class="r a" style="--k:left;--d:1.6s"><span class="dot"></span><div data-e="119"><b>Questions before or after.</b> Never during.</div></div>
+<div class="r a" style="--k:left;--d:1.75s"><span class="dot"></span><div data-e="120"><b>3 Step 1s with a trainer,</b> minimum. Usually about 10.</div></div>
 </div>
 </div>
 <div class="dete">
-<div class="lab a" data-e="113" style="--d:.4s">D.E.T.E. · RISE App › Scripts</div>
-<div class="glass dl a" style="--k:right;--d:.6s"><div class="L gradnum" data-e="114">D</div><div><div class="w" data-e="115">Dream</div><div class="x" data-e="116">"I may have found a way to help you get that."</div></div></div>
-<div class="glass dl a" style="--k:right;--d:.75s"><div class="L gradnum" data-e="117">E</div><div><div class="w" data-e="118">Excited</div><div class="x" data-e="119">"I'm serious about this because..." (your why)</div></div></div>
-<div class="glass dl a" style="--k:right;--d:.9s"><div class="L gradnum" data-e="120">T</div><div><div class="w" data-e="121">Takeaway</div><div class="x" data-e="122">"This may or may not be for you."</div></div></div>
-<div class="glass dl a" style="--k:right;--d:1.05s"><div class="L gradnum" data-e="123">E</div><div><div class="w" data-e="124">Edify</div><div class="x" data-e="125">Brag on your trainer. Then hand it over.</div></div></div>
+<div class="lab a" data-e="121" style="--d:.4s">D.E.T.E. · RISE App › Scripts</div>
+<div class="glass dl a" style="--k:right;--d:.6s"><div class="L gradnum" data-e="122">D</div><div><div class="w" data-e="123">Dream</div><div class="x" data-e="124">"I may have found a way to help you get that."</div></div></div>
+<div class="glass dl a" style="--k:right;--d:.75s"><div class="L gradnum" data-e="125">E</div><div><div class="w" data-e="126">Excited</div><div class="x" data-e="127">"I'm serious about this because..." (your why)</div></div></div>
+<div class="glass dl a" style="--k:right;--d:.9s"><div class="L gradnum" data-e="128">T</div><div><div class="w" data-e="129">Takeaway</div><div class="x" data-e="130">"This may or may not be for you."</div></div></div>
+<div class="glass dl a" style="--k:right;--d:1.05s"><div class="L gradnum" data-e="131">E</div><div><div class="w" data-e="132">Edify</div><div class="x" data-e="133">Brag on your trainer. Then hand it over.</div></div></div>
 </div>
 </section>
 <!-- 10 LICENSING -->
 <section class="slide s-lic" data-calm=".45" data-chapter="Licensing">
 <div class="left">
-<div class="eyebrow a" data-e="126" style="--d:.1s">09 · Licensing</div>
-<h1 class="h1 split" data-e="127" style="--d:.2s;margin-top:20px">Check in <em>every day.</em></h1>
+<div class="eyebrow a" data-e="134" style="--d:.1s">10 · Licensing</div>
+<h1 class="h1 split" data-e="135" style="--d:.2s;margin-top:20px">Check in <em>every day.</em></h1>
 <div class="bubbles">
-<div class="bub a" data-e="128" style="--k:pop;--e:var(--spring);--d:1s">Did you do the crash course today?</div>
-<div class="bub a" data-e="129" style="--k:pop;--e:var(--spring);--d:1.6s">How are the practice tests going?</div>
-<div class="bub a" data-e="130" style="--k:pop;--e:var(--spring);--d:2.2s">What did you score?</div>
+<div class="bub a" data-e="136" style="--k:pop;--e:var(--spring);--d:1s">Did you do the crash course today?</div>
+<div class="bub a" data-e="137" style="--k:pop;--e:var(--spring);--d:1.6s">How are the practice tests going?</div>
+<div class="bub a" data-e="138" style="--k:pop;--e:var(--spring);--d:2.2s">What did you score?</div>
 <div class="bub typing a" style="--k:fade;--d:2.8s"><i></i><i></i><i></i></div>
 </div>
 </div>
 <div class="ringbox a" style="--k:depth;--t:1.6s;--d:.5s">
 <svg viewbox="0 0 560 560"><defs><lineargradient id="licg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" style="stop-color:var(--acc2)"></stop><stop offset="1" style="stop-color:var(--acc)"></stop></lineargradient></defs>
 <circle class="track" cx="280" cy="280" r="250"></circle><circle class="arc" cx="280" cy="280" pathlength="100" r="250"></circle></svg>
-<div class="mid"><div class="big gradnum num" data-count="90" data-e="131" data-suffix="%">90%</div><div class="mono" data-e="132">Practice test goal</div></div>
+<div class="mid"><div class="big gradnum num" data-count="90" data-e="139" data-suffix="%">90%</div><div class="mono" data-e="140">Practice test goal</div></div>
 </div>
-<p class="body under a" data-e="133" style="--d:2s">Keep taking practice tests until they score <b style="color:#fff">90% or higher.</b> Then book the exam.</p>
+<p class="body under a" data-e="141" style="--d:2s">Keep taking practice tests until they score <b style="color:#fff">90% or higher.</b> Then book the exam.</p>
 </section>
 <!-- 11 CHAMPION'S PATH -->
 <section class="slide s-cp" data-calm=".4" data-chapter="14 days" data-sun=".78">
-<div class="head"><div class="eyebrow a" data-e="134" style="--d:.1s">10 · Champion's Path</div><h1 class="h1 split" data-e="135" style="--d:.2s">Two weeks. <em>Two wins.</em></h1></div>
+<div class="head"><div class="eyebrow a" data-e="142" style="--d:.1s">11 · Champion's Path</div><h1 class="h1 split" data-e="143" style="--d:.2s">Two weeks. <em>Two wins.</em></h1></div>
 <div class="days">
-<div class="day" data-e="136" style="--i:0">1</div><div class="day" data-e="137" style="--i:1">2</div><div class="day" data-e="138" style="--i:2">3</div><div class="day" data-e="139" style="--i:3">4</div><div class="day" data-e="140" style="--i:4">5</div><div class="day" data-e="141" style="--i:5">6</div><div class="day" data-e="142" style="--i:6">7</div><div class="day" data-e="143" style="--i:7">8</div><div class="day" data-e="144" style="--i:8">9</div><div class="day" data-e="145" style="--i:9">10</div><div class="day" data-e="146" style="--i:10">11</div><div class="day" data-e="147" style="--i:11">12</div><div class="day" data-e="148" style="--i:12">13</div><div class="day last" data-e="149" style="--i:13">14</div>
+<div class="day" data-e="144" style="--i:0">1</div><div class="day" data-e="145" style="--i:1">2</div><div class="day" data-e="146" style="--i:2">3</div><div class="day" data-e="147" style="--i:3">4</div><div class="day" data-e="148" style="--i:4">5</div><div class="day" data-e="149" style="--i:5">6</div><div class="day" data-e="150" style="--i:6">7</div><div class="day" data-e="151" style="--i:7">8</div><div class="day" data-e="152" style="--i:8">9</div><div class="day" data-e="153" style="--i:9">10</div><div class="day" data-e="154" style="--i:10">11</div><div class="day" data-e="155" style="--i:11">12</div><div class="day" data-e="156" style="--i:12">13</div><div class="day last" data-e="157" style="--i:13">14</div>
 </div>
 <div class="wins">
-<div class="glass win a" style="--k:depth;--d:1.6s"><div class="n" data-e="150">WIN 01</div><div class="t" data-e="151">Pass the exam</div><div class="s" data-e="152">Inside their first 14 days.</div></div>
-<div class="glass win a" style="--k:depth;--d:1.8s"><div class="n" data-e="153">WIN 02</div><div class="t" data-e="154">Get 1 result</div><div class="s" data-e="155">A new partner, or a family helped.</div></div>
-<div class="glass win prize a" style="--k:bloom;--t:1.6s;--d:2.4s"><div class="n" data-e="156">THE REWARD</div><div class="stat gradnum num" data-count="40" data-e="157" data-suffix="%">40%</div><div class="t" data-e="158" style="font-size:40px;margin-top:14px">pay increase</div><div class="s" data-e="159">Associate promotion, earned in 2 weeks.</div></div>
+<div class="glass win a" style="--k:depth;--d:1.6s"><div class="n" data-e="158">WIN 01</div><div class="t" data-e="159">Pass the exam</div><div class="s" data-e="160">Inside their first 14 days.</div></div>
+<div class="glass win a" style="--k:depth;--d:1.8s"><div class="n" data-e="161">WIN 02</div><div class="t" data-e="162">Get 1 result</div><div class="s" data-e="163">A new partner, or a family helped.</div></div>
+<div class="glass win prize a" style="--k:bloom;--t:1.6s;--d:2.4s"><div class="n" data-e="164">THE REWARD</div><div class="stat gradnum num" data-count="40" data-e="165" data-suffix="%">40%</div><div class="t" data-e="166" style="font-size:40px;margin-top:14px">pay increase</div><div class="s" data-e="167">Associate promotion, earned in 2 weeks.</div></div>
 </div>
 </section>
 <!-- 12 MARKETING EXPANSION -->
 <section class="slide s-mep" data-calm=".5" data-chapter="After licensing">
 <div class="head">
-<div class="eyebrow a" data-e="160" style="--d:.1s">11 · After they pass</div>
-<h1 class="h1 split" data-e="161" style="--d:.2s">Then do it <em>again.</em></h1>
-<p class="lede a" data-e="162" style="--d:1s">The Marketing Expansion Plan is a second Fast Start. Meet within 48 hours of passing.</p>
+<div class="eyebrow a" data-e="168" style="--d:.1s">12 · After they pass</div>
+<h1 class="h1 split" data-e="169" style="--d:.2s">Then do it <em>again.</em></h1>
+<p class="lede a" data-e="170" style="--d:1s">The Marketing Expansion Plan is a second Fast Start. Meet within 48 hours of passing.</p>
 </div>
 <div class="tiles">
-<div class="glass tile a" style="--k:depth;--d:1.2s"><div class="stat gradnum num" data-count="100" data-e="163" data-suffix="+">100+</div><div class="lb" data-e="164">names on their list</div><div class="sb" data-e="165">Use the memory jogger. Add names, never cross off.</div></div>
-<div class="glass tile a" style="--k:depth;--d:1.35s"><div class="stat gradnum num" data-count="25" data-e="166">25</div><div class="lb" data-e="167">appointments booked</div><div class="sb" data-e="168">Aim for 10 to 25. Momentum wins.</div></div>
-<div class="glass tile a" style="--k:depth;--d:1.5s"><div class="stat gradnum num" data-count="10" data-e="169">10</div><div class="lb" data-e="170">minutes of role-play</div><div class="sb" data-e="171">5 to 10 minutes before they dial. Confidence goes up.</div></div>
+<div class="glass tile a" style="--k:depth;--d:1.2s"><div class="stat gradnum num" data-count="100" data-e="171" data-suffix="+">100+</div><div class="lb" data-e="172">names on their list</div><div class="sb" data-e="173">Use the memory jogger. Add names, never cross off.</div></div>
+<div class="glass tile a" style="--k:depth;--d:1.35s"><div class="stat gradnum num" data-count="25" data-e="174">25</div><div class="lb" data-e="175">appointments booked</div><div class="sb" data-e="176">Aim for 10 to 25. Momentum wins.</div></div>
+<div class="glass tile a" style="--k:depth;--d:1.5s"><div class="stat gradnum num" data-count="10" data-e="177">10</div><div class="lb" data-e="178">minutes of role-play</div><div class="sb" data-e="179">5 to 10 minutes before they dial. Confidence goes up.</div></div>
 </div>
 </section>
 <!-- 13 YOUR JOB -->
 <section class="slide s-job" data-calm=".45" data-chapter="Your job">
-<div class="head"><div class="eyebrow a" data-e="172" style="--d:.1s">12 · Your job</div><h1 class="h1 split" data-e="173" style="--d:.2s;font-size:108px">Inspect what <em>you expect.</em></h1></div>
+<div class="head"><div class="eyebrow a" data-e="180" style="--d:.1s">13 · Your job</div><h1 class="h1 split" data-e="181" style="--d:.2s;font-size:108px">Inspect what <em>you expect.</em></h1></div>
 <div class="grid4">
-<div class="glass jb a" style="--k:depth;--d:.6s"><svg class="ic" viewbox="0 0 100 100"><path class="draw" d="M14 20h72v46H46L28 82V66H14z" pathlength="1" style="--d:1s"></path><path class="draw" d="M30 38h40M30 50h26" pathlength="1" style="--d:1.3s"></path></svg><div><div class="t" data-e="174">Talk every day</div><div class="s" data-e="175">Put them on the Fast Start Tracker. Check in daily.</div></div></div>
-<div class="glass jb a" style="--k:depth;--d:.75s"><svg class="ic" viewbox="0 0 100 100"><path class="draw" d="M50 10l11 23 25 3-18 17 5 25-23-12-23 12 5-25-18-17 25-3z" pathlength="1" style="--d:1.15s"></path></svg><div><div class="t" data-e="176">Be the Director of Motivation</div><div class="s" data-e="177">Get every new partner you can to Fast Start School.</div></div></div>
-<div class="glass jb a" style="--k:depth;--d:.9s"><svg class="ic" viewbox="0 0 100 100"><path class="draw" d="M32 10h36v80H32zM44 80h12" pathlength="1" style="--d:1.3s"></path><path class="draw" d="M76 30c6 6 6 18 0 24M84 22c11 11 11 29 0 40" pathlength="1" style="--d:1.6s"></path></svg><div><div class="t" data-e="178">Never text a reschedule</div><div class="s" data-e="179">If a guest tries to move it, call your trainer. Three-way it.</div></div></div>
-<div class="glass jb a" style="--k:depth;--d:1.05s"><svg class="ic" viewbox="0 0 100 100"><path class="draw" d="M32 14h36v22c0 12-8 20-18 20s-18-8-18-20zM32 22H20c0 10 6 16 14 16M68 22h12c0 10-6 16-14 16M50 56v14M38 86h24M42 70h16v16H42z" pathlength="1" style="--d:1.45s"></path></svg><div><div class="t" data-e="180">Celebrate small wins</div><div class="s" data-e="181">Out loud. In the group. Every time.</div></div></div>
+<div class="glass jb a" style="--k:depth;--d:.6s"><svg class="ic" viewbox="0 0 100 100"><path class="draw" d="M14 20h72v46H46L28 82V66H14z" pathlength="1" style="--d:1s"></path><path class="draw" d="M30 38h40M30 50h26" pathlength="1" style="--d:1.3s"></path></svg><div><div class="t" data-e="182">Talk every day</div><div class="s" data-e="183">Put them on the Fast Start Tracker. Check in daily.</div></div></div>
+<div class="glass jb a" style="--k:depth;--d:.75s"><svg class="ic" viewbox="0 0 100 100"><path class="draw" d="M50 10l11 23 25 3-18 17 5 25-23-12-23 12 5-25-18-17 25-3z" pathlength="1" style="--d:1.15s"></path></svg><div><div class="t" data-e="184">Be the Director of Motivation</div><div class="s" data-e="185">Get every new partner you can to Fast Start School.</div></div></div>
+<div class="glass jb a" style="--k:depth;--d:.9s"><svg class="ic" viewbox="0 0 100 100"><path class="draw" d="M32 10h36v80H32zM44 80h12" pathlength="1" style="--d:1.3s"></path><path class="draw" d="M76 30c6 6 6 18 0 24M84 22c11 11 11 29 0 40" pathlength="1" style="--d:1.6s"></path></svg><div><div class="t" data-e="186">Never text a reschedule</div><div class="s" data-e="187">If a guest tries to move it, call your trainer. Three-way it.</div></div></div>
+<div class="glass jb a" style="--k:depth;--d:1.05s"><svg class="ic" viewbox="0 0 100 100"><path class="draw" d="M32 14h36v22c0 12-8 20-18 20s-18-8-18-20zM32 22H20c0 10 6 16 14 16M68 22h12c0 10-6 16-14 16M50 56v14M38 86h24M42 70h16v16H42z" pathlength="1" style="--d:1.45s"></path></svg><div><div class="t" data-e="188">Celebrate small wins</div><div class="s" data-e="189">Out loud. In the group. Every time.</div></div></div>
 </div>
 </section>
 <!-- 14 CLOSE -->
@@ -604,10 +634,10 @@ body.editing #rot{display:none}
 <div class="photo" data-img="4" style="background-image:url(assets/tree.webp)"></div>
 <div class="shade"></div>
 <div class="txt">
-<div class="eyebrow a" data-e="182" style="--d:.8s">Team RISE</div>
-<h1 class="h1 split" data-e="183" style="--d:1s;margin-top:24px">They'll do <em>what you do.</em></h1>
-<p class="lede a" data-e="184" style="--d:2s">Run their first 7 days right, and they'll run it for their partners.</p>
-<div class="sign a" style="--d:2.5s"><div class="rise-logo"></div><div style="text-align:left"><div class="mono" data-e="185" style="font-size:15px">Team RISE</div><div class="mono" data-e="186" style="font-size:13px;color:var(--dim);margin-top:6px">Revolution Financial Management</div></div></div>
+<div class="eyebrow a" data-e="190" style="--d:.8s">Team RISE</div>
+<h1 class="h1 split" data-e="191" style="--d:1s;margin-top:24px">They'll do <em>what you do.</em></h1>
+<p class="lede a" data-e="192" style="--d:2s">Run their first 7 days right, and they'll run it for their partners.</p>
+<div class="sign a" style="--d:2.5s"><div class="rise-logo"></div><div style="text-align:left"><div class="mono" data-e="193" style="font-size:15px">Team RISE</div><div class="mono" data-e="194" style="font-size:13px;color:var(--dim);margin-top:6px">Revolution Financial Management</div></div></div>
 </div>
 </section>
 
