@@ -3,7 +3,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Got a New Partner?</title>
-<meta name="rev" content="1793144615363">
+<meta name="rev" content="1793144838880">
 <meta name="repo" content="dwightrfm/rise-new-partner">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
@@ -345,11 +345,17 @@ body.editing #rot{display:none}
 .s-lic .ringbox .track{fill:none;stroke:rgba(255,255,255,.08);stroke-width:26}
 .s-lic .ringbox .arc{fill:none;stroke:url(#licg);stroke-width:26;stroke-linecap:round;stroke-dasharray:100;stroke-dashoffset:100;filter:drop-shadow(0 0 16px var(--acc))}
 .s-lic.active .ringbox .arc{animation:arc90 2.6s var(--ease) .9s both}
-@keyframes arc90{to{stroke-dashoffset:10}}
+@keyframes arc90{to{stroke-dashoffset:15}}
 .s-lic .ringbox .mid{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
 .s-lic .ringbox .big{font-size:190px;font-weight:800;letter-spacing:-.06em;line-height:.9}
 .s-lic .ringbox .mono{color:var(--acc);font-size:17px;margin-top:14px}
 .s-lic .under{position:absolute;right:150px;top:770px;width:660px;text-align:center;font-size:30px}
+
+.s-lic .lic{margin-top:54px;display:flex;flex-direction:column;gap:30px;max-width:900px}
+.s-lic .lic .r{display:flex;gap:24px;align-items:flex-start;font-size:36px;line-height:1.25}
+.s-lic .lic .r .dot{flex:none;margin-top:16px}
+.s-lic .lic .r b{font-weight:650}
+.s-lic .lic .r small{display:block;font-family:var(--serif);font-style:italic;font-size:30px;color:var(--mut);margin-top:8px}
 
 /* 11 champion's path */
 .s-cp .days{position:absolute;left:130px;right:130px;top:410px;height:110px;display:grid;grid-template-columns:repeat(14,1fr);gap:12px}
@@ -568,77 +574,67 @@ body.editing #rot{display:none}
 <h1 class="h1 split" data-e="99" style="--d:.2s;margin-top:20px">Built in <em>the field.</em></h1>
 <p class="q a" data-e="100" style="--d:1s">Activity creates knowledge. Not the other way around.</p>
 <div class="rules">
-<div class="r a" style="--k:left;--d:1.3s"><span class="dot"></span><div data-e="101"><b>Introduce the trainer</b> with D.E.T.E.</div></div>
+<div class="r a" style="--k:left;--d:1.3s"><span class="dot"></span><div data-e="101"><b>Trainers drill the DETE</b> with your new partner, plus field training etiquette: cameras on, professional dress, not eating or driving.</div></div>
 <div class="r a" style="--k:left;--d:1.45s"><span class="dot"></span><div data-e="102"><b>Camera on.</b> Quiet spot. Take notes.</div></div>
-<div class="r a" style="--k:left;--d:1.6s"><span class="dot"></span><div data-e="103"><b>Questions before or after.</b> Never during.</div></div>
 </div>
 </div>
 <div class="dete">
-<div class="lab a" data-e="104" style="--d:.4s">D.E.T.E. · RISE App › Scripts</div>
-<div class="glass dl a" style="--k:right;--d:.6s"><div class="L gradnum" data-e="105">D</div><div><div class="w" data-e="106">Dream</div><div class="x" data-e="107">"You know that dream you have about… I may've found a way to help you get that…"</div></div></div>
-<div class="glass dl a" style="--k:right;--d:.75s"><div class="L gradnum" data-e="108">E</div><div><div class="w" data-e="109">Excited</div><div class="x" data-e="110">"I'm serious about this because..." (your why)</div></div></div>
-<div class="glass dl a" style="--k:right;--d:.9s"><div class="L gradnum" data-e="111">T</div><div><div class="w" data-e="112">Takeaway</div><div class="x" data-e="113">"This may or may not be for you."</div></div></div>
-<div class="glass dl a" style="--k:right;--d:1.05s"><div class="L gradnum" data-e="114">E</div><div><div class="w" data-e="115">Edify</div><div class="x" data-e="116">Brag on your trainer. Then hand it over.</div></div></div>
+<div class="lab a" data-e="103" style="--d:.4s">D.E.T.E. · RISE App › Scripts</div>
+<div class="glass dl a" style="--k:right;--d:.6s"><div class="L gradnum" data-e="104">D</div><div><div class="w" data-e="105">Dream</div><div class="x" data-e="106">"You know that dream you have about… I may've found a way to help you get that…"</div></div></div>
+<div class="glass dl a" style="--k:right;--d:.75s"><div class="L gradnum" data-e="107">E</div><div><div class="w" data-e="108">Excited</div><div class="x" data-e="109">"I'm serious about this because..." (your why)</div></div></div>
+<div class="glass dl a" style="--k:right;--d:.9s"><div class="L gradnum" data-e="110">T</div><div><div class="w" data-e="111">Takeaway</div><div class="x" data-e="112">"This may or may not be for you."</div></div></div>
+<div class="glass dl a" style="--k:right;--d:1.05s"><div class="L gradnum" data-e="113">E</div><div><div class="w" data-e="114">Edify</div><div class="x" data-e="115">Brag on your trainer. Then hand it over.</div></div></div>
 </div>
 </section>
 <!-- 10 LICENSING -->
 <section class="slide s-lic" data-calm=".45" data-chapter="Licensing">
 <div class="left">
-<div class="eyebrow a" data-e="117" style="--d:.1s">09 · Licensing</div>
-<h1 class="h1 split" data-e="118" style="--d:.2s;margin-top:20px">Check in <em>every day.</em></h1>
-<p class="lede a" data-e="119" style="--d:1s;margin-top:40px">Cheer them on. Celebrate every practice test.</p>
-<p class="lede a" data-e="120" style="--d:1.3s;margin-top:22px">Keep going until they score <b style="color:#fff;font-weight:600">90% or higher.</b><br/>Then book the exam.</p>
+<div class="eyebrow a" data-e="116" style="--d:.1s">09 · Licensing</div>
+<h1 class="h1 split" data-e="117" style="--d:.2s;margin-top:20px">Check in <em>every day.</em></h1>
+<div class="lic">
+<div class="r a" style="--k:left;--d:1s"><span class="dot"></span><div data-e="118"><b>Mobilize your new partners</b> to Saturday's live licensing sessions.</div></div>
+<div class="r a" style="--k:left;--d:1.15s"><span class="dot"></span><div data-e="119"><b>Help them book an exam date</b> in 1 to 2 weeks.<small>Don't wait until they feel ready. They book, then they cram.</small></div></div>
+<div class="r a" style="--k:left;--d:1.3s"><span class="dot"></span><div data-e="120"><b>Encourage them</b> daily.</div></div>
+</div>
 </div>
 <div class="ringbox a" style="--k:depth;--t:1.6s;--d:.5s">
 <svg viewbox="0 0 560 560"><defs><lineargradient id="licg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" style="stop-color:var(--acc2)"></stop><stop offset="1" style="stop-color:var(--acc)"></stop></lineargradient></defs>
 <circle class="track" cx="280" cy="280" r="250"></circle><circle class="arc" cx="280" cy="280" pathlength="100" r="250"></circle></svg>
-<div class="mid"><div class="big gradnum num" data-count="90" data-e="121" data-suffix="%">90%</div><div class="mono" data-e="122">Practice test goal</div></div>
+<div class="mid"><div class="big gradnum num" data-count="85" data-e="121" data-suffix="%">85%</div><div class="mono" data-e="122">Simulator exam goal</div></div>
 </div>
 </section>
-<!-- 11 CHAMPION'S PATH -->
-<section class="slide s-cp" data-calm=".4" data-chapter="14 days" data-sun=".78">
-<div class="head"><div class="eyebrow a" data-e="123" style="--d:.1s">10 · Champion's Path</div><h1 class="h1 split" data-e="124" style="--d:.2s">Two weeks. <em>Two wins.</em></h1></div>
-<div class="days">
-<div class="day" data-e="125" style="--i:0">1</div><div class="day" data-e="126" style="--i:1">2</div><div class="day" data-e="127" style="--i:2">3</div><div class="day" data-e="128" style="--i:3">4</div><div class="day" data-e="129" style="--i:4">5</div><div class="day" data-e="130" style="--i:5">6</div><div class="day" data-e="131" style="--i:6">7</div><div class="day" data-e="132" style="--i:7">8</div><div class="day" data-e="133" style="--i:8">9</div><div class="day" data-e="134" style="--i:9">10</div><div class="day" data-e="135" style="--i:10">11</div><div class="day" data-e="136" style="--i:11">12</div><div class="day" data-e="137" style="--i:12">13</div><div class="day last" data-e="138" style="--i:13">14</div>
-</div>
-<div class="wins">
-<div class="glass win a" style="--k:depth;--d:1.6s"><div class="n" data-e="139">WIN 01</div><div class="t" data-e="140">Pass the exam</div><div class="s" data-e="141">Inside their first 14 days.</div></div>
-<div class="glass win a" style="--k:depth;--d:1.8s"><div class="n" data-e="142">WIN 02</div><div class="t" data-e="143">Get 1 result</div><div class="s" data-e="144">A new partner, or a family helped.</div></div>
-<div class="glass win prize a" style="--k:bloom;--t:1.6s;--d:2.4s"><div class="n" data-e="145">THE REWARD</div><div class="stat gradnum num" data-count="40" data-e="146" data-suffix="%">40%</div><div class="t" data-e="147" style="font-size:40px;margin-top:14px">pay increase</div><div class="s" data-e="148">Associate promotion, earned in 2 weeks.</div></div>
-</div>
-</section>
-<!-- 12 MARKETING EXPANSION -->
+<!-- 11 MARKETING EXPANSION -->
 <section class="slide s-mep" data-calm=".5" data-chapter="After licensing">
 <div class="head">
-<div class="eyebrow a" data-e="149" style="--d:.1s">11 · After they pass</div>
-<h1 class="h1 split" data-e="150" style="--d:.2s">Then do it <em>again.</em></h1>
-<p class="lede a" data-e="151" style="--d:1s">The Marketing Expansion Plan is a second Fast Start. Meet within 48 hours of passing.</p>
+<div class="eyebrow a" data-e="123" style="--d:.1s">10 · After they pass</div>
+<h1 class="h1 split" data-e="124" style="--d:.2s">Then do it <em>again.</em></h1>
+<p class="lede a" data-e="125" style="--d:1s">The Marketing Expansion Plan is a second Fast Start. Meet within 48 hours of passing.</p>
 </div>
 <div class="tiles">
-<div class="glass tile a" style="--k:depth;--d:1.2s"><div class="stat gradnum num" data-count="100" data-e="152" data-suffix="+">100+</div><div class="lb" data-e="153">names on their list</div><div class="sb" data-e="154">Use the memory jogger. Add names, never cross off.</div></div>
-<div class="glass tile a" style="--k:depth;--d:1.35s"><div class="stat gradnum num" data-count="25" data-e="155">25</div><div class="lb" data-e="156">appointments booked</div><div class="sb" data-e="157">Aim for 10 to 25. Momentum wins.</div></div>
-<div class="glass tile a" style="--k:depth;--d:1.5s"><div class="stat gradnum num" data-count="10" data-e="158">10</div><div class="lb" data-e="159">minutes of role-play</div><div class="sb" data-e="160">5 to 10 minutes before they dial. Confidence goes up.</div></div>
+<div class="glass tile a" style="--k:depth;--d:1.2s"><div class="stat gradnum num" data-count="100" data-e="126" data-suffix="+">100+</div><div class="lb" data-e="127">names on their list</div><div class="sb" data-e="128">Use the memory jogger. Add names, never cross off.</div></div>
+<div class="glass tile a" style="--k:depth;--d:1.35s"><div class="stat gradnum num" data-count="25" data-e="129">25</div><div class="lb" data-e="130">appointments booked</div><div class="sb" data-e="131">Aim for 10 to 25. Momentum wins.</div></div>
+<div class="glass tile a" style="--k:depth;--d:1.5s"><div class="stat gradnum num" data-count="10" data-e="132">10</div><div class="lb" data-e="133">minutes of role-play</div><div class="sb" data-e="134">5 to 10 minutes before they dial. Confidence goes up.</div></div>
 </div>
 </section>
-<!-- 13 YOUR JOB -->
+<!-- 12 YOUR JOB -->
 <section class="slide s-job" data-calm=".45" data-chapter="Your job">
-<div class="head"><div class="eyebrow a" data-e="161" style="--d:.1s">12 · Your job</div><h1 class="h1 split" data-e="162" style="--d:.2s;font-size:108px">Inspect what <em>you expect.</em></h1></div>
+<div class="head"><div class="eyebrow a" data-e="135" style="--d:.1s">11 · Your job</div><h1 class="h1 split" data-e="136" style="--d:.2s;font-size:108px">Inspect what <em>you expect.</em></h1></div>
 <div class="grid4">
-<div class="glass jb a" style="--k:depth;--d:.6s"><svg class="ic" viewbox="0 0 100 100"><path class="draw" d="M14 20h72v46H46L28 82V66H14z" pathlength="1" style="--d:1s"></path><path class="draw" d="M30 38h40M30 50h26" pathlength="1" style="--d:1.3s"></path></svg><div><div class="t" data-e="163">Talk every day</div><div class="s" data-e="164">Put them on the Fast Start Tracker. Check in daily.</div></div></div>
-<div class="glass jb a" style="--k:depth;--d:.75s"><svg class="ic" viewbox="0 0 100 100"><path class="draw" d="M50 10l11 23 25 3-18 17 5 25-23-12-23 12 5-25-18-17 25-3z" pathlength="1" style="--d:1.15s"></path></svg><div><div class="t" data-e="165">Be the Director of Motivation</div><div class="s" data-e="166">Get every new partner you can to Fast Start School.</div></div></div>
-<div class="glass jb a" style="--k:depth;--d:.9s"><svg class="ic" viewbox="0 0 100 100"><path class="draw" d="M32 10h36v80H32zM44 80h12" pathlength="1" style="--d:1.3s"></path><path class="draw" d="M76 30c6 6 6 18 0 24M84 22c11 11 11 29 0 40" pathlength="1" style="--d:1.6s"></path></svg><div><div class="t" data-e="167">Never text a reschedule</div><div class="s" data-e="168">If a guest tries to move it, call your trainer. Three-way it.</div></div></div>
-<div class="glass jb a" style="--k:depth;--d:1.05s"><svg class="ic" viewbox="0 0 100 100"><path class="draw" d="M32 14h36v22c0 12-8 20-18 20s-18-8-18-20zM32 22H20c0 10 6 16 14 16M68 22h12c0 10-6 16-14 16M50 56v14M38 86h24M42 70h16v16H42z" pathlength="1" style="--d:1.45s"></path></svg><div><div class="t" data-e="169">Celebrate small wins</div><div class="s" data-e="170">Out loud. In the group. Every time.</div></div></div>
+<div class="glass jb a" style="--k:depth;--d:.6s"><svg class="ic" viewbox="0 0 100 100"><path class="draw" d="M14 20h72v46H46L28 82V66H14z" pathlength="1" style="--d:1s"></path><path class="draw" d="M30 38h40M30 50h26" pathlength="1" style="--d:1.3s"></path></svg><div><div class="t" data-e="137">Talk every day</div><div class="s" data-e="138">Put them on the Fast Start Tracker. Check in daily.</div></div></div>
+<div class="glass jb a" style="--k:depth;--d:.75s"><svg class="ic" viewbox="0 0 100 100"><path class="draw" d="M50 10l11 23 25 3-18 17 5 25-23-12-23 12 5-25-18-17 25-3z" pathlength="1" style="--d:1.15s"></path></svg><div><div class="t" data-e="139">Be the Director of Motivation</div><div class="s" data-e="140">Get every new partner you can to Fast Start School.</div></div></div>
+<div class="glass jb a" style="--k:depth;--d:.9s"><svg class="ic" viewbox="0 0 100 100"><path class="draw" d="M32 10h36v80H32zM44 80h12" pathlength="1" style="--d:1.3s"></path><path class="draw" d="M76 30c6 6 6 18 0 24M84 22c11 11 11 29 0 40" pathlength="1" style="--d:1.6s"></path></svg><div><div class="t" data-e="141">Never text a reschedule</div><div class="s" data-e="142">If a guest tries to move it, call your trainer. Three-way it.</div></div></div>
+<div class="glass jb a" style="--k:depth;--d:1.05s"><svg class="ic" viewbox="0 0 100 100"><path class="draw" d="M32 14h36v22c0 12-8 20-18 20s-18-8-18-20zM32 22H20c0 10 6 16 14 16M68 22h12c0 10-6 16-14 16M50 56v14M38 86h24M42 70h16v16H42z" pathlength="1" style="--d:1.45s"></path></svg><div><div class="t" data-e="143">Celebrate small wins</div><div class="s" data-e="144">Out loud. In the group. Every time.</div></div></div>
 </div>
 </section>
-<!-- 14 CLOSE -->
+<!-- 13 CLOSE -->
 <section class="slide s-close" data-calm="0" data-chapter="Welcome" data-sun="1">
 <div class="photo" data-img="3" style="background-image:url(assets/tree.webp)"></div>
 <div class="shade"></div>
 <div class="txt">
-<div class="eyebrow a" data-e="171" style="--d:.8s">Team RISE</div>
-<h1 class="h1 split" data-e="172" style="--d:1s;margin-top:24px">They'll do <em>what you do.</em></h1>
-<p class="lede a" data-e="173" style="--d:2s">Run their first 7 days right, and they'll run it for their partners.</p>
-<div class="sign a" style="--d:2.5s"><div class="rise-logo"></div><div style="text-align:left"><div class="mono" data-e="174" style="font-size:15px">Team RISE</div></div></div>
+<div class="eyebrow a" data-e="145" style="--d:.8s">Team RISE</div>
+<h1 class="h1 split" data-e="146" style="--d:1s;margin-top:24px">They'll do <em>what you do.</em></h1>
+<p class="lede a" data-e="147" style="--d:2s">Run their first 7 days right, and they'll run it for their partners.</p>
+<div class="sign a" style="--d:2.5s"><div class="rise-logo"></div><div style="text-align:left"><div class="mono" data-e="148" style="font-size:15px">Team RISE</div></div></div>
 </div>
 </section>
 
