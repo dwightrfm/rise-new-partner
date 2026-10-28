@@ -3,7 +3,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Got a New Partner?</title>
-<meta name="rev" content="1793146572870">
+<meta name="rev" content="1793146959763">
 <meta name="repo" content="dwightrfm/rise-new-partner">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
@@ -404,12 +404,17 @@ body.editing #rot{display:none}
 .s-close .txt{position:absolute;left:130px;top:150px;width:840px;display:flex;flex-direction:column;align-items:flex-start}
 .s-close .h1{font-size:140px;text-shadow:0 10px 60px rgba(0,0,0,.5)}
 .s-close .h1 em{color:#ffd58e}
-.s-close .event{margin-top:56px;padding:30px 36px;border-radius:30px;width:760px}
+.s-close .event{margin-top:44px;padding:28px 34px;border-radius:30px;width:820px}
 .s-close .event .mono{color:var(--acc);font-size:16px}
 .s-close .event .et{font-size:46px;font-weight:700;letter-spacing:-.025em;margin-top:10px}
 .s-close .event .es{font-size:28px;color:var(--mut);margin-top:8px;line-height:1.3}
 .s-close .event .es b{color:#fff;font-weight:600}
-.s-close .sign{margin-top:48px;display:flex;align-items:center;gap:18px}
+.s-close .tix{display:flex;gap:30px;margin-top:20px}
+.s-close .tk{display:flex;align-items:center;gap:18px}
+.s-close .tk .qr{width:150px;padding:8px;border-radius:16px;flex:none}
+.s-close .tk b{display:block;font-size:26px;font-weight:700;letter-spacing:-.015em;line-height:1.1}
+.s-close .tk span{display:block;font-size:20px;color:var(--mut);margin-top:6px}
+.s-close .sign{margin-top:34px;display:flex;align-items:center;gap:18px}
 .s-close .sign .rise-logo{width:74px;height:74px}
 
 </style>
@@ -647,9 +652,12 @@ body.editing #rot{display:none}
 <div class="glass event a" style="--k:left;--d:2.4s">
 <div class="mono" data-e="146">Next Big Event</div>
 <div class="et" data-e="147">Register now.</div>
-<div class="es" data-e="148">Get your <b>Legacy Legends</b> and <b>Champions Bowl</b> tickets.</div>
+<div class="tix">
+<div class="tk"><div class="qr"><img alt="Champions Bowl 2027 tickets QR" data-img="3" src="assets/qr_champbowl.png"/><div class="scan"></div></div><div><b data-e="148">Champions Bowl 2027</b><span data-e="149">Kickoff tickets</span></div></div>
+<div class="tk"><div class="qr"><img alt="Legacy Legends registration QR" data-img="4" src="assets/qr_legacy.png"/><div class="scan"></div></div><div><b data-e="150">Legacy Legends</b><span data-e="151">Leadership master class</span></div></div>
 </div>
-<div class="sign a" style="--d:3s"><div class="rise-logo"></div><div style="text-align:left"><div class="mono" data-e="149" style="font-size:15px">Team RISE</div></div></div>
+</div>
+<div class="sign a" style="--d:3s"><div class="rise-logo"></div><div style="text-align:left"><div class="mono" data-e="152" style="font-size:15px">Team RISE</div></div></div>
 </div>
 </section>
 
